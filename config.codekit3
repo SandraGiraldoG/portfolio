@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32147",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitattributes",
+		"oF": 0
+		},
 	"/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -607,6 +615,14 @@
 		"oAP": "/assets/Sandra-cv.pdf",
 		"oF": 0
 		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -629,14 +645,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/projects/readee.html",
-		"oF": 0
-		},
-	"/resume.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/resume.html",
 		"oF": 0
 		},
 	"/style/animate.css": {
