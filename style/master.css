@@ -44,8 +44,7 @@ body {
     font-size: 16px;
 }
 
-.navbar.active .nav-link:hover,
-.navbar.active .nav-link:focus {
+.navbar.active .nav-link:hover{
     color: #afb2b7;
     text-decoration: none;
 }
@@ -131,6 +130,7 @@ a:hover {
 .cool-link {
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 70px;
   letter-spacing: 0.2px;
   display: inline-block;
   text-decoration: none;
@@ -157,6 +157,39 @@ a:hover {
     width: 100%;
     //transition: width .3s;
 }
+
+
+.cool-link-about {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  letter-spacing: 0px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Montserrat semibold';
+  font-style: normal;
+  font-size: 18px;
+  color: #262526;
+}
+
+.cool-link-about::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    color: #afb2b7;
+    background: #afb2b7;
+    transition: width .3s;
+}
+
+.cool-link-about:hover::after {
+    stroke-linecap: round;
+    color: #afb2b7;
+    width: 100%;
+    //transition: width .3s;
+}
+
 
 
 
@@ -243,6 +276,8 @@ div.work-container-2 {
 
 /* mouse effect */
 .mouse {
+
+  margin-top: 30px;
     position: absolute;
     width: 30px;
     height: 45px;
@@ -257,8 +292,8 @@ div.work-container-2 {
 
 .scroll {
     display: block;
-    width: 4px;
-    height: 4px;
+    width: 3px;
+    height: 3px;
     margin: 6px auto;
     border-radius: 2px;
     background: #d7d8da;
@@ -269,8 +304,8 @@ div.work-container-2 {
 @-webkit-keyframes Home {
     0% {
         opacity: 0;
-        -webkit-transform: translateY(40px);
-        transform: translateY(40px);
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
     }
     100% {
         opacity: 1;
@@ -282,8 +317,8 @@ div.work-container-2 {
 @keyframes Home {
     0% {
         opacity: 0;
-        -webkit-transform: translateY(40px);
-        transform: translateY(40px);
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
     }
     100% {
         opacity: 1;
@@ -315,7 +350,7 @@ div.work-container-2 {
 }
 
 
-ul.mapstr {
+ul.circle {
   list-style-type: circle;
 }
 
@@ -509,10 +544,11 @@ p.statement {
   align-items: center;
 }
 
-.-container {
+.container {
         text-align: center;
         display: block;
       }
+
 
 
 
@@ -527,30 +563,117 @@ background-color: #d7d8da;
 hr {
   margin-top: 70px;
   width:10%;
-  border: 3px solid #25325D;
+  border: 3px solid #262526;
+;
 }
 
 hr.right {
   margin-top: 70px;
   width:10%;
-  border: 3px solid #25325D;
+  border: 3px solid #262526;
 }
 
 
 
 img.sandra {
-  width:230px;
+  width:300px;
 }
 
 div.about-container {
   width: 700px;
   align-items: center;
+  text-align: justify;
+  padding-top: 150px;
+
+}
+
+.about-container p {
+  text-align: justify;
+  spacing: 0
+}
+
+h1#about {
+  padding-top: 20px;
+  color: #262526;
+  font-size: 24px;
+  font-family: 'Montserrat-semibold';
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  letter-spacing: -0.5px;
+  line-height: 29.25px;
+
+}
+p#about {
   text-align: center;
-  padding-top: 50px;
+  color: #7f8084;
+  font-size:20px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  letter-spacing: normal;
+  line-height: 29.50px;
+
+
 }
 
 @media only screen and (max-width: 576px) {
   div.about-container {
+    width: 450px;
+  }
+}
+
+
+
+
+
+
+
+
+div.experience-container {
+  width: 700px;
+  align-items: left;
+  text-align: justify;
+  padding-top: 50px;
+
+}
+
+.experience-container p {
+  text-align: justify;
+  spacing: 0
+}
+
+h1#experience {
+  padding-top: 20px;
+  color: #262526;
+  font-size: 24px;
+  font-family: 'Montserrat-semibold';
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+p#experience {
+  color: #7f8084;
+  font-size:20px;
+  padding-top: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-left: 0;
+  padding-bottom: 0;
+  letter-spacing: normal;
+  font-weight: bold;
+  line-height: 29.50px;
+}
+
+h6.details {
+  padding-top: 0px;
+  text-align: left;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 576px) {
+  div.experience-container {
     width: 450px;
   }
 }
