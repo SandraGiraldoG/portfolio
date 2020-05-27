@@ -77,7 +77,7 @@ h1 {
   font-size: 28px;
   text-transform: uppercase;
   color: #262526;
-  padding-top: 56px;
+  padding-top: 40px;
 }
 
 p, ul {
@@ -195,7 +195,7 @@ a:hover {
 
 .image1 {
   width: 320px;
-
+padding-top: 25px;
 }
 
 
@@ -413,31 +413,26 @@ footer p {
 
 /* button*/
 .btn-outline {
-  color: #03738C;
+  color: #262526;
   border: 2px solid;
-  border-color: #03738C;
+  border-color: #262526;
 }
 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #03738C;
-  background-color: #03738C;
+  border-color: #262526;
+  background-color: #262526;
 }
 
 .btn {
 
   text-align: center;
   margin-top: 20px;
-  margin-right: 10px;
   border-radius: 300px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.btn-xl {
-  font-size: 14px;
-  padding: 10px 30px;
+  letter-spacing: 0.2px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 
@@ -456,7 +451,7 @@ header.masthead {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 200px 0 0 0;
+  padding: 150px 0 0 0;
   color: white;
   text-align: center;
 }
@@ -474,12 +469,6 @@ header.masthead .site-heading {
   text-align: center;
 }
 
-header.masthead .page-heading h1,
-header.masthead .site-heading h1 {
-  font-size: 50px;
-  margin-top: 0;
-}
-
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
   font-size: 24px;
@@ -487,19 +476,27 @@ header.masthead .site-heading .subheading {
   line-height: 1.1;
   display: block;
   margin: 10px 0 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media only screen and (min-width: 768px) {
-  header.masthead .page-heading h1,
-  header.masthead .site-heading h1 {
-    font-size: 80px;
-  }
+
+header.masthead .post-heading h2 {
+  padding-top: 20px;
+  color: #262526;
+  font-size: 24px;
+  font-family: 'Montserrat-semibold';
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
 }
 
-header.masthead .post-heading h1 {
-  font-size: 35px;
+
+header.masthead .post-heading h3 {
+  padding-top: 5px;
+  color: #7f8084;
+  font-size: 20px;
+  font-family: 'Montserrat';
 }
+
 
 header.masthead .post-heading .date,
 header.masthead .post-heading .subheading {
@@ -513,9 +510,9 @@ header.masthead .post-heading .subheading {
 }
 
 header.masthead .post-heading .date {
-  font-size: 18px;
-  font-weight: 300;
-  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat'
+  color: red;
 }
 
 
@@ -583,7 +580,7 @@ div.about-container {
   width: 700px;
   align-items: center;
   text-align: justify;
-  padding-top: 150px;
+  padding-top: 100px;
 
 }
 
@@ -603,7 +600,7 @@ h1#about {
   line-height: 29.25px;
 
 }
-p#about {
+h3#about {
   text-align: center;
   color: #7f8084;
   font-size:20px;
