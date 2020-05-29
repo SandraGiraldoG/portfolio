@@ -555,6 +555,13 @@ background-color: #d7d8da;
 
 .main-small-2 {
   background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
             }
 
 hr {
