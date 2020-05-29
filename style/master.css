@@ -61,6 +61,12 @@ body {
 }
 
 
+nav button {
+  display: flex;
+  align-items: center;
+  width: 18px;
+}
+
 
 /* Change navbar styling on small viewports */
 @media (max-width: 720px) {
@@ -419,6 +425,7 @@ footer p {
 }
 
 
+
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
   border-color: #262526;
@@ -536,7 +543,7 @@ p.statement {
   color: #F2A46C;
 }
 
-#biography {
+.biography {
   display: flex;
   align-items: center;
 }
@@ -624,13 +631,18 @@ h3#about {
 }
 
 @media only screen and (max-width: 576px) {
-  div.about-container {
-    width: 450px;
+  div#readee {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
 
-
+@media only screen and (max-width: 576px) {
+  div.about-container {
+    width: 450px;
+  }
+}
 
 
 
