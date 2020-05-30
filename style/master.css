@@ -355,6 +355,13 @@ div.work-container-2 {
     }
 }
 
+@media (max-width: 576px) {
+.mouse {
+display: none;
+}
+}
+
+
 
 ul.circle {
   list-style-type: circle;
