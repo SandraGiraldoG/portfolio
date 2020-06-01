@@ -565,16 +565,12 @@ p.statement {
 
 .main-small {
 background-color: #d7d8da;
+float: right;
       }
 
 .main-small-2 {
   background-color: #f3f3f3;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
+  float: right;
 
             }
 
@@ -582,7 +578,6 @@ hr {
   margin-top: 70px;
   width:10%;
   border: 3px solid #262526;
-;
 }
 
 hr.right {
