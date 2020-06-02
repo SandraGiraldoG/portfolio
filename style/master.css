@@ -651,7 +651,7 @@ h3#about {
 
 
 div.experience-container {
-  width: 700px;
+  width: 100%;
   align-items: left;
   text-align: justify;
   padding-top: 50px;
