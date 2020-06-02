@@ -214,7 +214,7 @@ input.input100 {
   font-size: 18px;
   color: #262526;
   line-height: 1.5;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 
@@ -265,6 +265,7 @@ input.input100 {
 .wsize1 {
   max-width: 100%;
   width: 880px;
+  padding-bottom: 80px;
 }
 
 
@@ -272,7 +273,7 @@ input.input100 {
 /*//////////////////////////////////////////////////////////////////
 [ Height ]*/
 .hsize1 {
-  min-height: 230px;
+  min-height: 200px;
 }
 
 
@@ -333,7 +334,7 @@ input.input100 {
 .how-countdown {
   background-color: #262526;
   border-radius: 10px;
-  margin: 0px 18px 25px 18px;
+  margin: 0px 18px 0px 18px;
 }
 
 /*---------------------------------------------*/
@@ -516,4 +517,10 @@ input.input100 {
     color: #262526;
     text-transform: uppercase;
     font-size: 3em;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.p-t-175 {
+    padding-top: 80px;
 }
