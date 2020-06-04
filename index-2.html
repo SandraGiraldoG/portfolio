@@ -32,7 +32,33 @@
     </nav>
 
 <!-- This is the main square -->
-    <div class="main">
+<style>
+.flex-row {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-row > * {
+  flex-grow: 1;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-container {
+  height: 50vh;
+}
+.main-small,
+.main-small-2 {
+  width: 100%;
+}
+</style>
+<div class="flex-row">
+    <div class="main col-8">
       <section class="box-home small-container">
         <div class="table-cell">
           <div class="container">
@@ -42,15 +68,13 @@
           </div>
           <a href="mailto:sandra.giraldo.236@gmail.com" target="_blank" class="cool-link">Get in touch!</a>
         </div>
-        <div class="mouse">
-          <div class="scroll"></div>
-        </div>
       </section>
     </div>
 
 <!-- This is the top right square -->
+<div class="flex-column col-4">
     <div class="row">
-      <div class="col-6 main-small">
+      <div class="main-small">
         <section class="box-home small-container">
         <div class="table-cell">
           <div class="container">
@@ -62,7 +86,7 @@
     </div>
 
 <!-- This is the bottom right square -->
-    <div class="col-6 main-small-2 flex-item">
+    <div class="main-small-2 flex-item">
       <section class="box-home small-container">
         <div class="table-cell">
           <div class="container">
@@ -72,6 +96,8 @@
         </div>
       </section>
     </div>
+  </div>
+</div>
   </div>
 
 
