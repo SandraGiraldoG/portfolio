@@ -418,8 +418,7 @@ footer {
     margin: 0 0 0 0;
     text-align: center;
     background: #fff;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 50px;
 }
 
 footer p {
@@ -572,7 +571,9 @@ p.statement {
         display: block;
       }
 
-
+.main {
+  padding-top: 20px;
+}
 
 
 .main-small {
@@ -608,7 +609,7 @@ div.about-container {
   width: 700px;
   align-items: center;
   text-align: justify;
-  padding-top: 100px;
+  padding-top: 30px;
 
 }
 
