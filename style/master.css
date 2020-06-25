@@ -21,7 +21,7 @@ body {
 
 .navbar .navbar-brand {
     font-family: 'Montserrat', sans-serif;
-    color: #262526;
+    color: #32393D;
     text-transform: uppercase;
     font-size: 2em;
 }
@@ -68,21 +68,22 @@ nav button {
 }
 
 
-/* Change navbar styling on small viewports */
+/* Change navbar styling on small viewports (hidden)
 @media (max-width: 720px) {
     .navbar {
         background: none;
     }
 }
 
+*/
 
 h1 {
-  font-family: 'Montserrat';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
   text-transform: uppercase;
-  color: #262526;
+  color: #2EBFD9;
   padding-top: 40px;
 }
 
@@ -124,14 +125,19 @@ h4 {
 }
 
 a {
-  color: #262526;
+  color: #47525D;
 }
 
 a:hover {
-  color: #afb2b7;
+  color: #2EBFD9;
   text-decoration: none;
 }
 
+a.link:hover
+{
+  color: #47525D;
+  text-decoration: none;
+}
 
 .cool-link {
   text-align: center;
@@ -143,7 +149,7 @@ a:hover {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  color: #262526;
+  color: #47525D;
 }
 
 .cool-link::after {
@@ -151,14 +157,14 @@ a:hover {
     display: block;
     width: 0;
     height: 4px;
-    color: #afb2b7;
-    background: #afb2b7;
+    color: #47525D;
+    background: #47525D ;
     transition: width .3s;
 }
 
 .cool-link:hover::after {
     stroke-linecap: round;
-    color: #afb2b7;
+    color: #47525D;
     width: 100%;
     //transition: width .3s;
 }
@@ -175,22 +181,22 @@ a:hover {
   font-family: 'Montserrat semibold';
   font-style: normal;
   font-size: 18px;
-  color: #262526;
+  color: #47525D;
 }
 
 .cool-link-about::after {
     content: '';
     display: block;
     width: 0;
-    height: 4px;
-    color: #afb2b7;
-    background: #afb2b7;
+    height: 2px;
+    color: #2EBFD9;
+    background: #2EBFD9;
     transition: width .3s;
 }
 
 .cool-link-about:hover::after {
     stroke-linecap: round;
-    color: #afb2b7;
+    color: #2EBFD9;
     width: 100%;
     //transition: width .3s;
 }
@@ -200,6 +206,7 @@ a:hover {
 
 .image1 {
   width: 300px;
+  margin-bottom:30px;
 }
 
 .image2 {
@@ -222,7 +229,6 @@ blockquote {
 @media only screen and (max-width: 576px) {
   div.small-container {
     width: 400px;
-    padding-top: 20px;
   }
 .work-container {
     display: block;
@@ -415,9 +421,10 @@ footer {
 }
 
 footer p {
-  color: #262526;
+  color: #47525D;
   font-size: 18px;
 }
+
 
 .copyright {
   margin-top: 20px;
@@ -609,7 +616,6 @@ div.about-container {
 }
 
 h1#about {
-  padding-top: 20px;
   color: #262526;
   font-size: 24px;
   font-family: 'Montserrat-semibold';
@@ -621,14 +627,11 @@ h1#about {
 }
 h3#about {
   text-align: center;
-  color: #7f8084;
+  color: #47525D;
   font-size:20px;
   font-style: normal;
-  font-weight: 300;
-  text-transform: uppercase;
   padding-top: 0px;
   margin-top: 0px;
-  padding-bottom: 20px;
   letter-spacing: normal;
   line-height: 29.50px;
 
