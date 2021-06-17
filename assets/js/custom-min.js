@@ -1,1 +1,0 @@
-$((function(){$(window).on("scroll",(function(){$(window).scrollTop()>10?$(".navbar").addClass("active"):$(".navbar").removeClass("active")}))}));
