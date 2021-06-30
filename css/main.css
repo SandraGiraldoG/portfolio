@@ -5,25 +5,25 @@
 
 .heading {
   font-family: "Nunito", sans-serif;
-  color: #2F2E41;
+  color: #08090A;
   font-weight: 700;
   font-size: 2.8em; }
 
 .subheading-lg {
   font-family: "Nunito", sans-serif;
-  color: #2F2E41;
+  color: #08090A;
   font-weight: 600;
   font-size: 2em; }
 
 .subheading-sm {
   font-family: "Nunito", sans-serif;
-  color: #2F2E41;
+  color: #08090A;
   font-weight: 400;
   font-size: 1.7em; }
 
 h4 {
   font-family: "Crimson Text", serif;
-  color: #2F2E41;
+  color: #08090A;
   font-weight: 600;
   font-size: 1.2em;
   font-style: normal;
@@ -53,13 +53,13 @@ p {
   display: inline-block;
   margin-top: 20px;
   padding: 8px 25px;
-  border: 2px #2F2E41 solid;
+  border: 2px #08090A solid;
   border-radius: 4px; }
 
 .button_primary {
   font-family: "Nunito", sans-serif;
   position: relative;
-  background-color: #2F2E41;
+  background-color: #08090A;
   color: #ffffff;
   transition: color 0.3s ease-in;
   z-index: 1; }
@@ -70,7 +70,7 @@ p {
 .button_secondary {
   position: relative;
   background-color: #ffffff;
-  color: #2F2E41;
+  color: #08090A;
   transition: color 0.3s ease-in;
   z-index: 1; }
   .button_secondary:hover {
@@ -93,7 +93,8 @@ p {
   padding: 0;
   width: 100%;
   transition: background 0.6s ease-in;
-  z-index: 99999; }
+  z-index: 99999;
+  background-color: #ffffff; }
   .navbar .navbar-toggler {
     position: relative;
     height: 50px;
@@ -103,10 +104,12 @@ p {
     outline: none; }
     .navbar .navbar-toggler .menu-icon-bar {
       position: absolute;
-      left: 15px;
-      right: 15px;
-      height: 3px;
-      background-color: #2F2E41;
+      height: 4px;
+      width: 30px;
+      right: 14px;
+      border: #08090A 2px solid;
+      border-radius: 2px;
+      background-color: #08090A;
       opacity: 0;
       -webkit-transform: translateY(-1px);
       -ms-transform: translateY(-1px);
@@ -134,7 +137,7 @@ p {
       transform: translateY(5px) rotate(0); }
 
 .navbar-nav .nav_link {
-  color: #2F2E41;
+  color: #08090A;
   font-family: "Nunito", sans-serif;
   padding: 20px;
   position: relative;
@@ -146,14 +149,13 @@ p {
     color: #A191FF;
     font-weight: 700; }
   .navbar-nav .nav_link:focus {
-    color: #2F2E41; }
+    color: #08090A; }
 
 .content {
   padding-top: 5%;
   display: flex;
   align-items: center;
   position: relative;
-  height: 100%;
   text-align: center;
   z-index: 1; }
 
@@ -162,7 +164,7 @@ footer {
   padding-bottom: 1%;
   text-align: center;
   width: 100%;
-  padding-top: 1%;
+  padding-top: 2%;
   padding-bottom: 1%; }
   footer .social {
     display: flex;
@@ -172,17 +174,10 @@ footer {
       padding: 0 0.5rem;
       list-style: none; }
       footer .social li i {
-        color: #2F2E41;
+        color: #08090A;
         font-size: 1.5rem; }
         footer .social li i:hover {
           color: #A191FF; }
-
-.fixed {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center; }
 
 .badge {
   color: #ffffff;
@@ -206,18 +201,18 @@ article {
   text-align: left;
   display: grid;
   font-family: "Crimson Text", serif;
-  color: #2F2E41;
+  color: #08090A;
   grid-template-columns: 1fr 1fr 10px 740px 10px 1fr 1fr; }
 
 article h1 {
   font-family: "Nunito", sans-serif;
-  color: #2F2E41;
+  color: #08090A;
   font-weight: 700;
   font-size: 3em; }
 
 article h3 {
   font-family: "Nunito", sans-serif;
-  color: #2F2E41;
+  color: #08090A;
   font-weight: 600;
   font-size: 1.7;
   padding-top: 2%; }
@@ -362,11 +357,16 @@ article li {
 
 @media screen and (min-width: 768px) {
   .navbar {
-    padding: 14px 20px; } }
+    padding: 20px 20px; } }
 
 @media screen and (max-width: 768px) {
   .navbar {
-    padding: 14px 20px; } }
+    padding: 20px 20px; }
+  .heading {
+    font-size: 2.5em; }
+  .subheading-sm {
+    font-size: 1.5em;
+    margin-top: 40px; } }
 
 input {
   outline: none;
@@ -430,7 +430,7 @@ textarea {
   display: block;
   font-family: "Nunito", sans-serif;
   font-size: 2em;
-  color: #2F2E41;
+  color: #08090A;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 30px; }
@@ -461,12 +461,12 @@ textarea.input1 + .shadow-input1 {
 .input1 {
   display: block;
   width: 100%;
-  border: #2F2E41 2px solid;
+  border: #08090A 2px solid;
   background: #fff;
   font-family: "Nunito", sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  color: #2F2E41; }
+  color: #08090A; }
 
 .shadow-input1 {
   content: '';

@@ -33,10 +33,6 @@
 
   <!--===============================================================================================-->
     
-
-
-    
-    
     
       <!-- project stylesheet -->
     <link rel="stylesheet" href="../css/main.css">
@@ -48,7 +44,7 @@
 
   <body>
     <!-- Modal -->
-    <div class="modal fade" id="modalExample" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle"
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle"
       aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -60,7 +56,7 @@
             </button>
 
             <!-- Heading -->
-            <h2 class="pt-3 subheading-lg text-center mb-1" id="modalExampleTitle">
+            <h2 class="pt-3 subheading-lg text-center mb-1" id="modalTitle">
               Get in touch
             </h2>
 
@@ -84,17 +80,17 @@
           <a class="rotate" href="../index.html"><img src="../assets/images/logo-portfolio-sandra.svg"
               alt="Logo dark blue square with smiley face" title="Logo" width="50px"></a>
 
-          <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+          <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="menu-icon-bar"></span>
             <span class="menu-icon-bar"></span>
             <span class="menu-icon-bar"></span>
           </button>
 
-          <div class="collapse navbar-collapse">
+          <div class="collapse navbar-collapse" id="main-nav">
             <ul class="navbar-nav ml-auto">
               <li><a href="portfolio.html" class="nav-item nav_link .nav_link">Portfolio</a></li>
               <li><a href="about.html" class="nav-item nav_link">About</a></li>
-              <li><a href="#" class="nav-item nav_link" data-bs-toggle="modal" data-bs-target="#modalExample">Say hi 💬</a></li>
+              <li><a href="#" class="nav-item nav_link" data-bs-toggle="modal" data-bs-target="#modal">Say hi 💬</a></li>
             </ul>
           </div>
         </div>
@@ -190,17 +186,7 @@
         scale: 1.1
       })
     </script>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'UA-23581568-13');
-  </script>
-  
+
   <!--===============================================================================================-->
     <script src="../js/main.js"></script>
   
