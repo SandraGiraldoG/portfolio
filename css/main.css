@@ -64,7 +64,7 @@ p {
   transition: color 0.3s ease-in;
   z-index: 1; }
   .button_primary:hover {
-    color: #A191FF;
+    color: #80AA6C;
     text-decoration: none; }
 
 .button_secondary {
@@ -146,7 +146,7 @@ p {
   letter-spacing: 0.02em;
   text-decoration: none; }
   .navbar-nav .nav_link:hover {
-    color: #A191FF;
+    color: #80AA6C;
     font-weight: 700; }
   .navbar-nav .nav_link:focus {
     color: #08090A; }
@@ -177,7 +177,7 @@ footer {
         color: #08090A;
         font-size: 1.5rem; }
         footer .social li i:hover {
-          color: #A191FF; }
+          color: #80AA6C; }
 
 .badge {
   color: #ffffff;
@@ -187,7 +187,7 @@ footer {
   position: absolute;
   right: 50%;
   top: 2%;
-  background: #A191FF;
+  background: #80AA6C;
   text-align: center;
   border-radius: 20px;
   padding: 6px 10px; }
@@ -245,7 +245,7 @@ blockquote {
   grid-column: 3 / span 2;
   margin-top: 10px;
   color: #656F77;
-  border-left: 3px solid #A191FF;
+  border-left: 3px solid #80AA6C;
   padding-left: 10px; }
 
 article p {
@@ -313,7 +313,7 @@ article li {
   left: 0;
   right: 0;
   top: 0;
-  background-color: #A191FF;
+  background-color: #80AA6C;
   border-radius: 4px;
   opacity: 0;
   -webkit-transform: scaleX(0.8);
@@ -372,13 +372,13 @@ input {
   outline: none;
   border: none; }
   input:focus {
-    border: #A191FF 2px solid !important; }
+    border: #80AA6C 2px solid !important; }
 
 textarea {
   outline: none;
   border: none; }
   textarea:focus {
-    border: #A191FF 2px solid !important; }
+    border: #80AA6C 2px solid !important; }
 
 /*//////////////////////////////////////////////////////////////////
   [ Contact 1 ]*/
@@ -595,5 +595,5 @@ textarea.input1 + .shadow-input1 {
     font-size: 1.2rem; }
 
 .img-sandra {
-  box-shadow: 12px 12px 0px 0px #A191FF;
+  box-shadow: 12px 12px 0px 0px #80AA6C;
   border-radius: 5px; }

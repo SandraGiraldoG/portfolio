@@ -1,5 +1,5 @@
 $primary-color: #08090A;
-$secondary-color: #A191FF;
+$secondary-color: #80AA6C;
 $white: #ffffff;
 $warning: #EDAA0A;
 $danger: #FE0000;
@@ -27,13 +27,13 @@ $secondary-font:'Crimson Text', serif;
     font-family: $main-font;
     color: $primary-color;
     font-weight: 400;
-    font-size: 1.7em;  
+    font-size: 1.7em;
 }
 
 h4 {
     font-family: $secondary-font;
-    color: $primary-color;  
-    font-weight: 600;  
+    color: $primary-color;
+    font-weight: 600;
     font-size: 1.2em;
     font-style: normal;
     line-height: 120%;
